@@ -1,15 +1,5 @@
 <template>
-  <div class="home">
+  <section>
     <h1>Home</h1>
-  </div>
+  </section>
 </template>
-
-<script>
-
-export default {
-  name: 'home',
-  components: {
-    
-  }
-}
-</script>

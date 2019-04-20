@@ -9,3 +9,23 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    padding: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(35, 116, 209);
+}
