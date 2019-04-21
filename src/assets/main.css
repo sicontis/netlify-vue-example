@@ -23,9 +23,35 @@ nav {
 
 section {
     padding: 2em;
+    text-align: center;
+}
+section img {
+    height: 80px;
+    margin: 0 auto 2em auto;
+}
+section h1 {
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+section h2 {
+    margin-bottom: 1em;
 }
 
 a {
     text-decoration: none;
     color: rgb(35, 116, 209);
+}
+
+.logos {
+    max-width: 500px;
+    padding: 2em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    justify-items: center;
+}
+.logos img {
+    height: 80px;
 }
